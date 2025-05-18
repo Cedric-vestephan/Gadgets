@@ -1,0 +1,547 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*--------------------------- Header------------------------ */
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 60px 0px;
+
+}
+
+label.Menu{
+    display: none;
+    position: absolute;
+    right: 4%;
+    z-index: 4;
+    background-color: rgb(4, 4, 90);
+    padding: 12px 12px 9px 12px;
+    border-radius: 50%;
+    width: 23px;
+    cursor: pointer;
+}
+.Menu:active{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+.Menu img{
+    width: 100%;
+    cursor: pointer;
+}
+input.inv{
+    display: none
+}
+
+/* logo du site */
+div.logo{
+    display: flex;
+}
+div.logo img{
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 110px;
+}
+
+/* navigation */
+nav{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+#ul-nav{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+}
+nav ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+nav ul a.a{
+    color: blue;
+}
+nav ul a:hover{
+    color: white;
+    background-color: rgb(98, 98, 254);
+    padding: 14px 20px;
+    transform: translateY(-5px);
+}
+
+/* recherche */
+form.recherche{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 10px 1px rgba(239, 239, 239, 0.745);
+    border: none;
+}
+form.recherche input{
+    width: 200px;
+    z-index: 2;
+    background-color: transparent;
+    padding: 15px 20px 15px 55px;
+    border-radius: 25px;
+    border: 1.6px solid transparent;
+    outline: none;
+}
+form.recherche input:focus{
+    border: 1.6px solid rgb(71, 163, 255);
+    transition: 0.7s;
+}
+form.recherche img{
+    position: absolute;
+    width: 20px;
+    left: 20px;
+}
+
+/* icon */
+div.achat{
+    display: flex;
+    gap: 18px;
+}
+div.panier{
+    position: relative;
+    width: 29px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+div.panier img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+div.panier p{
+    position: absolute;
+    right: 0px;
+    top: 37px;
+    padding: 2px 7px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+
+/* ----------------------------ligne---------------------------- */
+div.ligne{
+    display: flex;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(218, 218, 218);
+    position: relative;
+    margin-bottom: 70px;
+}
+div.ligne .maison{
+    position: absolute;
+    left: 9.5%;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 12px 20px 12px 15px;
+    border: 1.6px solid rgb(218, 218, 218);
+    border-radius: 25px;
+}
+div.ligne .maison img{
+    width: 15px;
+}
+div.ligne .maison p{
+    font-size: 12px;
+    font-weight: 600;
+    color: grey;
+}
+
+
+/* -----------------------------------Section 1-------------------------------- */
+section.section_1{
+    padding: 0px;
+    animation: tay 0.8s ease-in-out forwards;
+    opacity: 0;
+}
+@keyframes tay{
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+section.section_1 div.filtre{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 130px;
+    font-size: 14px;
+    color: rgb(106, 106, 106);
+    font-weight: 600;
+}
+section.section_1 div.filtre div{
+    display: flex;
+    gap: 20px;
+}
+section.section_1 div.filtre select{
+    padding: 10px;
+    border-radius: 12px;
+    border-color: blue;
+    border: 2px solid rgb(181, 181, 181);
+    outline-color: blue;
+}
+
+/* ---------------------Objets------------------ */
+div.objets{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+/* produits P1 */
+div.objets .P1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+div.objets .P1 .produit{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 19px -5px rgba(221, 221, 221, 0.404);
+    padding: 10px 20px 10px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+div.objets .P1 .produit:hover{
+    border: 1px solid transparent;
+    box-shadow: 0px 10px 19px -5px rgba(139, 139, 139, 0.451);
+    transition: 0.2s;
+}
+div.objets .P1 .produit:active{
+    transform: scale(0.98);
+    transition: 0.2s;
+}
+
+
+div.objets .P1 .produit .img{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    width: 130px;
+    overflow: hidden;
+}
+div.objets .P1 .produit .img img{
+    max-width: 100%;
+}
+div.objets .P1 .produit .info{
+    display: flex;
+    gap: 9px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+div.objets .P1 .produit .info h1{
+    font-size: 13.5px;
+    color: rgb(58, 58, 58);
+}
+div.objets .P1 .produit .info .etoile img{
+    width: 13px;
+}
+div.objets .P1 .produit .info p{
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+
+/* ----------------------------------------Section 2-------------------------------------- */
+
+section.section_1 .voir{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    justify-content: center;
+} 
+section.section_1 .voir div.objets{
+    display: none;
+    max-width: 100%;
+}
+section.section_1 .voir label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.section_1 .voir label h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 15px 20px 15px 25px;
+    border: 1.5px solid blue;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(11, 11, 11);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+section.section_1 .voir label h1 img{
+    width: 17px;
+    padding: 5px 5px 4px 4px;
+    border-radius: 50%;
+    background-color: rgb(0, 115, 255);
+}
+section.section_1 label h1:active{
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+section.section_1 label h1:hover{
+    background-color: rgb(0, 0, 169);
+    color: white;
+}
+section.section_1 .voir input{
+    display: none;
+}
+
+#plus:checked + .objets{
+    display: flex;
+    transition: 0.7s;
+    padding: 60px;
+    max-width: 100%;
+}
+
+
+/* ----------------------footer----------------------- */
+footer{
+    padding: 20px 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/* part1 */
+footer div.part1{
+    position: absolute;
+    display: flex;
+    gap: 180px;
+    justify-content: space-between;
+    align-items: center;
+    background: url(img/background.png);
+    background-size: cover;
+    padding: 70px;
+    border-radius: 48px;
+    margin: 0px 80px;
+}
+footer div.part1 .texte{
+    color: white;
+    width: 400px;
+}
+footer div.part1 .texte h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+footer div.part1 .texte h1 span{
+    color: blue;
+}
+footer div.part1 .texte p{
+    font-size: 17px;
+    color: rgb(233, 233, 233);
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+footer div.part1 form {
+    padding: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+footer div.part1 form input.em{
+    padding: 20px 40px;
+    width: 450px;
+    background-color: rgba(189, 189, 189, 0.104);
+    border-radius: 30px;
+    font-size: 13px;
+    color: white;
+    border: 1.7px solid transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+input.em::placeholder {
+    color: rgb(198, 198, 198);
+}
+div.part1 form input.em:focus {
+    border: 1.7px solid blue;
+    transition: 0.3s;
+}
+
+div.part1 form input.sub{
+    position: absolute;
+    right: 0;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 252);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+div.part1 form input.sub:active{
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+
+/* part2 */
+footer div.part2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 170px;
+    background-color: rgb(238, 247, 250);
+    padding: 160px 90px 80px 90px;
+    border-radius: 60px;
+}
+/* bloc1 */
+div.part2 div.p2_bloc1{
+    width: 250px;
+    margin-right: 80px;
+}
+div.part2 div.p2_bloc1 p{
+    padding: 4px 0px;
+    font-size: 16px;
+}
+div.part2 div.p2_bloc1 p.numeros{
+    font-weight: 600;
+    color: rgb(1, 1, 96);
+    line-height: 25px;
+}
+
+div.part2 div.p2_bloc1 .logo_footer{
+    width: 220px;
+    margin-bottom: 20px;
+}
+div.part2 div.p2_bloc1 .bloc_reseaux{
+    margin-top: 20px;
+    display: flex;
+    gap: 9px;
+}
+div.part2 div.p2_bloc1 .reseaux{
+    width: 21px;
+    padding: 9px;
+    border: 1px solid rgb(45, 83, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+div.part2 div.p2_bloc1 .reseaux:hover{
+    transition: 0.4s;
+    transform: translateY(-4px);
+    border: 1px solid transparent;
+    background-color: rgb(255, 255, 255);
+}
+
+/* bloc2 */
+div.p2_bloc2{
+    display: flex;
+    flex-direction: column;
+}
+div.p2_bloc2 h1{
+    font-size: 21px;
+    color: rgb(1, 1, 96);
+}
+div.p2_bloc2 .services{
+    margin-top: 29px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+div.p2_bloc2 .services a{
+    color: grey;
+    padding: 8px 0px;
+    text-decoration: underline;
+}
+div.p2_bloc2 .services a:hover{
+    color: rgb(3, 3, 46);
+}
+
+/* fin */
+div.fin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 130px 50px 130px;
+}
+div.fin p{
+    font-size: 14px;
+    color: rgb(3, 3, 46);
+}
+div.fin img{
+    width: 300px;
+    cursor: pointer;
+}
+
+/* sticker */
+div.sticker{
+    position: fixed;
+    z-index: 4;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+div.sticker input{
+    display: none;
+}
+div.sticker div h1{
+    font-family: "Comic sans MS";
+    background-color: rgb(253, 9, 9);
+    color: white;
+    font-size: 15px;
+    transition: 0.7s;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+#hidden-div h1{
+    display: none;
+}
+#toggle:checked + #hidden-div h1{
+    display: block;
+}
+
+div.sticker img{
+    width: 45px;
+    height: auto;
+    background-color: rgb(255, 211, 17);
+    border-radius: 50px;
+    padding: 8px 6px 5px 7px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+div.sticker img:active{
+    transform: scale(0.9);
+    transition: 0.1s;
+}

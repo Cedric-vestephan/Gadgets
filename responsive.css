@@ -1,0 +1,1437 @@
+
+@media screen and (max-width: 1518px){
+
+    /*--------------------------- Header------------------------ */
+    nav{
+        gap: 13px;
+    }
+    nav ul a{
+        padding: 13px 16px;
+        font-size: 15px;
+    }
+    nav ul a:hover{
+        padding: 13px 16px;
+    }
+
+    /* ---------------------------Section 1------------------------- */
+    section.section_1{
+        padding: 0px 100px;
+    }
+    section div.bloc{
+        padding: 30px 0px 30px 0px;
+    }
+    /* gauche */
+    section div.bloc div.gauche{
+        padding: 80px 20px 0px 80px;
+        gap: 50px;
+    }
+    section div.bloc div.gauche h1{
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    section div.bloc div.gauche p{
+        font-size: 14px;
+    }
+    /* droite */
+    section div.bloc div.droite{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section div.bloc div.droite .casque{
+        width: 510px;
+    }
+    /* ---------------------------Section 3------------------------- */
+    div.bloc_L .txt{
+        padding: 70px 290px 70px 70px;
+    }
+    div.bloc_R .txt{
+        color: white;
+        padding: 70px 290px 70px 70px;
+    }
+    div.bloc_L .txt button{
+        padding: 11px 23px;
+        gap: 11px;
+        font-size: 14px;
+    }
+    div.bloc_R .txt button{
+        padding: 11px 23px;
+        gap: 11px;
+        font-size: 14px;
+    }
+    div.explore a{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1460px){
+
+    /*--------------------------- Header------------------------ */
+    div.logo img{
+        margin-right: 70px;
+    }
+
+    /* ---------------------------Section 2------------------------- */
+    div.section_2_produits{
+        width: 200px;
+    }
+    /* ---------------------------Section 3------------------------- */
+    div.bloc_L .txt{
+        padding: 70px 250px 70px 70px;
+    }
+    div.bloc_R .txt{
+        padding: 70px 250px 70px 70px;
+    }
+
+}
+
+@media screen and (max-width: 1417px){
+    /*--------------------------- Header------------------------ */
+    nav{
+        gap: 13px;
+    }
+    nav ul a{
+        padding: 12px 13px;
+        font-size: 15px;
+    }
+    nav ul a:hover{
+        padding: 12px 13px;
+    }
+    /* icon */
+    div.achat{
+        display: flex;
+        gap: 9px;
+    }
+}
+
+@media screen and (max-width: 1414px){
+    /*--------------------------- Header------------------------ */
+    /* navigation */
+    nav ul a{
+        padding: 14px 10px;
+        font-size: 14px;
+    }
+    nav ul a:hover{
+        color: blue;
+        background-color: transparent;
+        padding: 14px 10px;
+        transform: none;
+    }
+    form.recherche input{
+        padding: 13px 20px 13px 55px;
+    }
+    /* ---------------------------Section 1------------------------- */
+    section.section_1{
+        padding: 0px 100px;
+    }
+    section div.bloc{
+        padding: 30px 0px 20px 0px;
+    }
+    section div.bloc div.gauche{
+        padding: 60px 40px 0px 80px;
+    }
+    section div.bloc div.gauche h1{
+        font-size: 47px;
+        line-height: 1.2;
+    }
+    section div.bloc div.gauche p{
+        font-size: 14px;
+    }
+    div.explore button{
+        gap: 15px;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px 16px 10px 20px;
+    }
+    div.explore button img{
+        width: 17px;
+    }
+
+    section div.bloc div.droite{
+        padding: 40px 0px;
+    }
+    section div.bloc div.droite .casque{
+        width: 500px;
+    }
+    /* ---------------------------Section 2------------------------- */
+    section.section_2{
+        gap: 30px;
+    }
+    section.section_2 div{
+        height: 210px;
+        width: 190px;
+    }
+    section.section_2 div a{
+        width: 140px;
+        padding: 14px 0px;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    /* ---------------------------Section 3------------------------- */
+    section.section_3{
+        padding: 0px 100px;
+    }
+    div.bloc_L .txt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 70px 300px 70px 70px;
+    }
+    div.bloc_L .txt h2{
+        font-size: 12px;
+    }
+    div.bloc_L .txt h1{
+        font-size: 45px;
+    }
+    div.bloc_L .txt p{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    div.bloc_L .txt button{
+        margin-top: 50px;
+        padding: 10px 20px;
+        gap: 9px;
+        font-size: 12px;
+    }
+    div.bloc_L .txt button img{
+        width: 17px;
+    }
+    div.bloc_L{
+        background-size: 500px auto;
+        background-position: 270px 45px;
+    }
+
+    div.bloc_R{
+        background-size: 600px auto;
+        background-position: 200px -5px;
+    }
+    div.bloc_R .txt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 70px 300px 70px 70px;
+    }
+    div.bloc_R .txt h2{
+        font-size: 12px;
+    }
+    div.bloc_R .txt h1{
+        font-size: 45px;
+    }
+    div.bloc_R .txt p{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    div.bloc_R .txt button{
+        margin-top: 50px;
+        padding: 10px 20px;
+        gap: 9px;
+        font-size: 12px;
+    }
+    div.bloc_R .txt button img{
+        width: 17px;
+    }
+    
+    /* ---------------------------Section 4------------------------- */
+    section.section_4{
+        gap: 40px;
+        padding: 100px 150px;
+    }
+    div.P1 .P1_Block1{
+        width: 250px;
+    }
+    div.P1 .P1_Block1 .info h1{
+        font-size: 16px;
+    }
+    div.P1 .P1_Block1 .info p{
+        font-size: 16px;
+    }
+    /* hover */
+    div.P1 .P1_Block1 button{
+        border-radius: 25px;
+        padding: 14px 25px;
+        font-size: 13px;
+    }
+    div.P1 .P1_Block1 button img{
+        width: 15px;
+    }
+    div.P1 .P1_Block1 div.ico{
+        width: 13px;
+    }
+
+    /* ------------------Bouton Acheter tous les produits-------------- */
+    div.achetez button{
+        gap: 20px;
+        padding: 14px 25px;
+        font-size: 14px;
+    }
+    div.achetez button img{
+        width: 19px;
+        padding: 6px;
+    }
+
+    /* ---------------------------Section 5------------------------- */
+    section.section_5{
+        padding: 0px 100px;
+    }
+    div.container div.s5_gauche h1{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    div.container div.s5_gauche P{
+        line-height: 15px;
+        line-height: 25px;
+    }
+    div.container div.s5_gauche button{
+        gap: 10px;
+        border: none;
+        border-radius: 30px;
+        padding: 12px 24px 12px 15px;
+        font-size: 14px;
+    }
+    /* ---------------------------Section 6------------------------- */
+
+
+
+    /* ----------------------footer----------------------- */
+    footer div.part1 .texte h1{
+        font-size: 35px;
+    }
+    footer div.part1 form input.em{
+        width: 400px;
+    }
+    /* bloc1 */
+    div.part2 div.p2_bloc1{
+        width: 240px;
+    }
+    div.part2 div.p2_bloc1 p{
+        font-size: 14px;
+    }
+    div.part2 div.p2_bloc1 .reseaux{
+        width: 19px;
+    }
+    /* bloc2 */
+    div.p2_bloc2 h1{
+        font-size: 18px;
+    }
+    div.p2_bloc2 .services a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1367px){
+    /* ---------------------------Section 1------------------------- */
+    section.section_1{
+        padding: 0px 50px;
+    }
+    /* ---------------------------Section 3------------------------- */
+    section.section_3{
+        padding: 0px 50px;
+    }
+    div.bloc_L .txt{
+        padding: 70px 250px 70px 70px;
+        height: 400px;
+    }
+    div.bloc_R .txt{
+        padding: 70px 250px 70px 70px;
+        height: 400px;
+    }
+    /* ---------------------------Section 4------------------------- */
+    section.section_4{
+        gap: 40px;
+        padding: 100px 100px;
+    }
+    /* ---------------------------Section 6------------------------- */
+
+    /* blog6 */
+    .s6_blog div.blog6_img{
+        height: 240px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 389px auto;
+        background-position: -15px -20px;
+    }
+}
+
+@media screen and (max-width: 1287px){
+    /* ---------------------------Section 1------------------------- */
+    section div.bloc{
+        padding: 30px 0px 0px 0px;
+    }
+    section div.bloc div.gauche{
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        color: white;
+        padding: 30px 10px 60px 80px;
+        gap: 40px;
+    }
+    section div.bloc div.droite{
+        padding: 0px 0px;
+    }
+    section div.bloc div.gauche h1{
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    section div.bloc div.droite .casque{
+        width: 370px;
+    }
+    /* ---------------------------Section 4------------------------- */
+    section.section_4{
+        gap: 40px;
+        padding: 80px 70px;
+    }
+    div.P1 .P1_Block1{
+        border-radius: 30px;
+        padding: 17px 15px;
+        gap: 1px;
+    }
+    /* ------------------Bouton Acheter tous les produits-------------- */
+    div.achetez button{
+        gap: 10px;
+        padding: 11px 20px;
+        font-size: 14px;
+        border-radius: 30px;
+        margin-bottom: 80px;
+    }
+    /* ---------------------------Section 5------------------------- */
+    section.section_5{
+        padding: 0px 100px;
+    }
+    div.container{
+        padding: 40px;
+    }
+
+    div.container div.s5_gauche h2{
+        font-size: 9px;
+        width: auto;
+    }
+    div.container div.s5_gauche h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    div.container div.s5_gauche P{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    div.container div.s5_gauche button{
+        gap: 10px;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 19px 10px 10px;
+        font-size: 12px;
+    }
+    div.container div.s5_gauche button img{
+        width: 15px;
+    }
+    /* ---------------------------Section 6------------------------- */
+
+    
+    /* ----------------------footer----------------------- */
+    footer{
+        padding: 20px 30px;
+    }
+    footer div.part1{
+        gap: 20px;
+        padding: 50px;
+        border-radius: 45px;
+        margin: 0px 80px;
+    }
+    footer div.part1 .texte{
+        width: 390px;
+    }
+    footer div.part1 .texte h1{
+        font-size: 32px;
+    }
+    footer div.part1 .texte p{
+        font-size: 13px;
+    }
+    footer div.part1 form input.em{
+        padding: 17px 30px;
+        width: 400px;
+        border-radius: 30px;
+        font-size: 13px;
+    }
+    div.part1 form input.sub{
+        padding: 18px 20px;
+        border-radius: 25px;
+        font-size: 13px;
+    }
+}
+
+/* -----------------Menu burger------------------ */
+@media screen and (max-width: 1197px){
+    /*--------------------------- Header------------------------ */
+    header{
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 4;
+        top: 0;
+        justify-content: space-between;
+        padding: 30px 10% 20px 6%;
+        background-color: rgba(255, 255, 255, 0.985);
+        box-shadow: 0px 0.5px 13px 1px rgba(222, 222, 222, 0.338);
+        border-radius: 0px 0px 30px 30px;
+    }
+    div.logo img{
+        width: 160px;
+    }
+    
+    label.Menu{
+        display: block;
+    }
+    #ul-nav{
+        right: -200px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    div.logo img{
+        margin-right: 90%;
+    }
+    /* nav */
+    
+    #js:checked + #ul-nav{
+        right: 0%;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(1, 1, 41, 0.953);
+        z-index: 3;
+        transition: 0.4s;
+        height: 100vh;
+        width: 22%;
+    }
+    #ul-nav li a{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 17px;
+        border-radius: 0px;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    #ul-nav li a:hover{
+        padding: 26px 0px;
+        color: blue;
+    }
+    /* ---------------------------Section 1------------------------- */
+    section.section_1{
+        margin-top: 160px;
+    }
+
+    /* ---------------------------Section 2------------------------- */
+    section.section_2{
+        gap: 30px;
+    }
+    section.section_2 div{
+        height: 180px;
+        width: 150px;
+    }
+    section.section_2 div a{
+        width: 130px;
+        padding: 14px 0px;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+
+    /* ---------------------------Section 3------------------------- */
+    section.section_3{
+        padding: 0px 7%;
+    }
+    div.bloc_L{
+        background-size: 420px auto;
+        background-position: 180px 80px;
+        overflow: hidden;
+    }
+    div.bloc_L .txt{
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.412);
+        padding: 50px;
+        text-align: center;
+    }
+
+    div.bloc_R{
+        background-size: 500px auto;
+        overflow: hidden;
+        background-position: 100px 10px;
+    }
+    div.bloc_R .txt{
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.412);
+        padding: 50px;
+        text-align: center;
+    }
+
+
+    /* ---------------------------Section 4------------------------- */
+    section.section_4{
+        gap: 20px;
+        padding: 100px 6%;
+    }
+    section.section_4 div.P1{
+        gap: 40px;
+    }
+    
+    div.P1 .P1_Block1{
+        width: 250px;
+    }
+    div.P1 .P1_Block1 .info h1{
+        font-size: 0.9em;
+    }
+    div.P1 .P1_Block1 .info p{
+        font-size: 0.9em;
+    }
+    /* hover */
+    div.P1 .P1_Block1 button{
+        border-radius: 25px;
+        padding: 5% 10%;
+        font-size: 0.7em;
+    }
+    div.P1 .P1_Block1 button img{
+        width: 12%;
+    }
+    div.P1 .P1_Block1 div.ico{
+        width: 4%;
+    }
+    div.P1 .P1_Block1 .info div.etoile{
+        width: 7%;
+    }
+
+    /* ---------------------------Section 5------------------------- */
+    section.section_5{
+        padding: 0px 7%;
+    }
+    div.container div.s5_gauche h1{
+        font-size: 2em;
+        line-height: 100%;
+    }
+    div.container div.s5_gauche P{
+        line-height: 20px;
+        font-size: 0.9em;
+    }
+
+    /* ---------------------------Section 6------------------------- */
+
+
+
+
+
+    /* ----------------------footer----------------------- */
+    footer div.part2{
+        background-color: rgb(238, 247, 250);
+        padding: 140px 90px 50px 90px;
+    }
+    footer div.part1 .texte h1{
+        font-size: 25px;
+    }
+    footer div.part1 form input.em{
+        width: 300px;
+    }
+
+    footer div.part2{
+        margin-top: 120px;
+        padding: 140px 6% 60px 6%;
+        border-radius: 60px;
+    }
+    /* fin */
+    div.fin{
+        padding: 10px 70px 50px 70px;
+    }
+    div.fin p{
+        font-size: 12px;
+    }
+    div.fin img{
+        width: 240px;
+    }
+    
+}
+
+@media screen and (max-width: 1001px){
+    /*--------------------------- Header------------------------ */
+    header{
+        padding: 30px 16% 20px 6%;
+    }
+    label.Menu{
+        right: 6%;
+    }
+    div.achat{
+        display: none;
+    }
+    /* ---------------------------Section 1------------------------- */
+    section div.bloc{
+        border-radius: 50px;
+        padding: 60px 3px 60px 60px;
+    }
+    section div.bloc div.gauche{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        max-width: 50%;
+        color: white;
+        padding: 0px;
+        gap: 20px;
+    }
+
+    div.explore{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    div.explore a{
+        padding: 0px;
+    }
+    /* ---------------------------Section 4------------------------- */
+    section.section_4 div.P1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    div.P1 .P1_Block1{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px 15px;
+    }
+    div.P1 .P1_Block1 img{
+        width: 50%;
+    }
+    div.P1 .P1_Block1 div.ico img{
+        width: 15px;
+    }
+    /* ----------------------footer----------------------- */
+    footer{
+        padding: 20px 30px;
+    }
+    footer div.part1{
+        gap: 30px;
+        padding: 40px;
+        margin: 0px 80px;
+    }
+    footer div.part1 .texte{
+        width: 50%;
+    }
+    footer div.part1 .texte h1{
+        font-size: 25px;
+    }
+    footer div.part1 .texte p{
+        font-size: 12px;
+    }
+
+    footer div.part1 form{
+        width: 50%;
+    }
+    footer div.part1 form input.em{
+        padding: 14px 90px 14px 30px;
+        width: 100%;
+        font-size: 13px;
+    }
+    div.part1 form input.sub{
+        padding: 14px 17px;
+        font-size: 13px;
+    }
+    /* part2 */
+    footer div.part2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 90px;
+        background-color: rgb(238, 247, 250);
+        padding: 120px 4% 5% 4%;
+        border-radius: 38px;
+    }
+    div.part2 div.p2_bloc1{
+        width: 200px;
+        margin-right: 40px;
+    }
+    div.part2 div.p2_bloc1 .logo_footer{
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    div.part2 div.p2_bloc1 p{
+        padding: 1px 0px;
+        font-size: 12px;
+    }
+    div.part2 div.p2_bloc1 .reseaux{
+        width: 14px;
+    }
+    /* bloc2 */
+    div.p2_bloc2 h1{
+        font-size: 13px;
+    }
+    div.p2_bloc2 .services{
+        margin-top: 29px;
+        font-size: 14px;
+    }
+    div.p2_bloc2 .services a{
+        padding: 5px 0px;
+    }
+    /* fin */
+    div.fin{
+        padding: 1px 80px 30px 80px;
+    }
+}
+
+@media screen and (max-width: 924px){
+    /*--------------------------- Header------------------------ */
+    label.Menu{
+        width: 20px;
+    }
+    /*-- ----------------------Section 2------------------------*/
+    section.section_2{
+        max-width: 100vw;
+        display: flex;
+        padding: 80px 130px 0px;
+        justify-content: center;
+        gap: 40px;
+    }
+    section.section_2 div.phone{
+        display: none;
+    }
+
+     /*-- ----------------------Section 2------------------------*/
+     section.section_2{
+        gap: 30px;
+    }
+     section.voir-plus{
+        display: flex;
+     }
+     /* ---------------------------Section 3------------------------- */
+    
+     div.bloc_L{
+        background-size: 400px auto;
+        background-position: 80px 80px;
+        overflow: hidden;
+        height: 400px;
+    }
+    div.bloc_L .txt{
+        padding: 0px 30px;
+        justify-content: center;
+        gap: 40px;
+    }
+    div.bloc_L .txt h1{
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    div.bloc_L .txt p{
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    div.bloc_L .txt button{
+        font-size: 11px;
+        padding: 7px 9px 7px 14px;
+        margin-top: 0px;
+    }
+
+    div.bloc_R{
+        background-size: 400px auto;
+        background-position: 80px 80px;
+        overflow: hidden;
+        height: 400px;
+    }
+    div.bloc_R .txt{
+        padding: 0px 30px;
+        justify-content: center;
+        gap: 40px;
+    }
+    div.bloc_R .txt h1{
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    div.bloc_R .txt p{
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    div.bloc_R .txt button{
+        font-size: 11px;
+        padding: 7px 9px 7px 14px;
+        margin-top: 0px;
+    }
+    /* ---------------------------Section 4------------------------- */
+    section.section_4{
+        padding: 90px 5%;
+    }
+    section.section_4 div.P1{
+        gap: 20px;
+    }
+    div.P1 .P1_Block1{
+        width: 320px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px 25px 10px 0px;
+    }
+    div.P1 .P1_Block1 .info div.etoile{
+        width: 16px;
+        display: flex;
+    }
+
+    div.P1 .P1_Block1 button{
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 809px){
+    /*--------------------------- Header------------------------ */
+    div.logo img{
+        width: 140px;
+    }
+    header{
+        padding: 30px 15% 20px 8%;
+    }
+    label.Menu{
+        right: 6%;
+    }
+    form.recherche input{
+        padding: 12px 20px 12px 55px;
+        font-size: 12px;
+    }
+    #js:checked + #ul-nav{
+        width: 30%;
+    }
+    #js:checked + #ul-nav a{
+        font-size: 14px;
+    }
+    /*-- ----------------------Section 1------------------------*/
+    section.section_1{
+        padding: 4%;
+        margin-top: 120px;
+    }
+    section.section_1 div.bloc{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 40px 40px 40px;
+    }
+    section.section_1 div.bloc div.gauche h1{
+        font-size: 35px;
+        padding: 20px;
+    }
+    section.section_1 div.bloc div.gauche{
+        z-index: 2;
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    section.section_1 div.bloc div.gauche p{
+        font-size: 14px;
+    }
+    div.explore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 19px;
+    }
+
+    div.explore a{
+        font-size: 12px;
+    }
+    /* droite */
+    section.section_1 div.bloc div.droite .casque{
+        width: 300px;
+    }
+    section.section_1 div.bloc div.droite .casque img{
+        padding-left: 14px;
+    }
+    /*-- ----------------------Section 2------------------------*/
+    section.section_2 div.pc-p{
+        display: none;
+    }
+    /*-- ----------------------Section 3------------------------*/
+    section.section_3{
+        flex-direction: column;
+    }
+    div.bloc_L{
+        width: 100%;
+        height: 280px;
+        background-size: 230px auto;
+        background-position: 430px 40px;
+    }
+    div.bloc_L .txt{
+        background-color: transparent;
+        padding: 0px 200px 0px 40px;
+        gap: 20px;
+        max-height: 100%;
+        line-height: normal;
+        align-items: start;
+        text-align: start;
+    }
+    div.bloc_R{
+        width: 100%;
+        height: 280px;
+        max-height: auto;
+        background-size: 320px auto;
+        background-position: 380px -7px;
+    }
+    div.bloc_R .txt{
+        background-color: transparent;
+        padding: 00px 200px 0px 40px;
+        gap: 20px;
+        max-height: 100%;
+        line-height: normal;
+        align-items: start;
+        text-align: start;
+    }
+    div.bloc_L .txt h1{
+        padding: 0;
+        margin: 0;
+    }
+    /*-- ----------------------Section 4------------------------*/
+    section.section_4{
+        padding: 90px 3%;
+    }
+    section.section_4 div.P1{
+        gap: 15px;
+    }
+    div.P1 .P1_Block1{
+        width: 270px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px 25px 10px 0px;
+    }
+
+    div.P1 .P1_Block1 button{
+        left: 10%;
+    }
+    /* ---------------------------Section 5------------------------- */
+    div.container{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-radius: 30px;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+    div.container div.s5_gauche{
+        min-width: 100%;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    div.container div.s5_gauche h1{
+        font-size: 40px;
+    }
+
+    div.container div.s5_gauche p{
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+    div.container div.s5_gauche button{
+        position: relative;
+        display: flex;
+
+        width: 200px;
+        font-size: 12px;
+        bottom: 3%;
+        padding: 8px 13px 8px 9px;
+        gap: 0px;
+    }
+    div.container div.s5_gauche button img{
+        width: 20px;
+    }
+    div.container div.s5_droite{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*-- ----------------------Footer------------------------*/
+    footer div.part1{
+        flex-direction: column;
+        padding: 20px 30px 30px 30px;
+        border-radius: 35px;
+        gap: 20px;
+    }
+    footer div.part1 .texte{
+        padding: 0;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    footer div.part1 .texte p{
+        margin: 0;
+    }
+    footer div.part1 form{
+        width: 100%;
+    }
+    /* part2 */
+    div.part2{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    /* reseaux */
+
+    div.part2 div.p2_bloc1 .logo_footer{
+        width: 130px;
+        margin: 0px;
+    }
+    .bloc_reseaux{
+        width: 15px;
+    }
+    div.part2 div.p2_bloc1 .reseaux{
+        padding: 5px;
+        width: 100%;
+        margin: 0;
+    }
+    /* bloc2 */
+    div.part2 div.p2_bloc2 {
+        width: 100px;
+        align-items: start;
+    }
+    .services{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 687px){
+    /*--------------------------- Header------------------------ */
+    form.recherche{
+        display: none;
+    }
+    header{
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    label.Menu{
+        width: 15px;
+        right: 8%;
+    }
+    /*--------------------------- Section 1------------------------ */
+    section.section_1{
+        margin-top: 130px;
+    }
+    section div.bloc{
+        padding-top: 33%;
+    }
+    /*--------------------------- Section 3------------------------ */
+    div.bloc_L{
+        width: 100%;
+        height: 340px;
+        background-size: 230px auto;
+        background-position: 350px 40px;
+    }
+    div.bloc_R{
+        width: 100%;
+        height: 340px;
+        background-size: 300px auto;
+        background-position: 330px 0px;
+    }
+
+    footer div.part2{
+        align-items: start;
+    }
+    /* fin */
+    div.fin{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 649px){
+    /*-- ----------------------Section 4------------------------*/
+    section.section_4{
+        padding: 100px 9%;
+    }
+    div.P1 .P1_Block1{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 0px;
+        padding: 0px 9px 0px 0px;
+    }
+
+    div.P1 .P1_Block1 .info{
+        gap: 20px;
+        padding: 0px 29px 0px 0px;
+    }
+    div.P1 .P1_Block1 .info h1{
+        font-size: 20px;
+    }
+
+    /*-- ----------------------Footer------------------------*/
+    footer div.part1{
+        margin: 0;
+    }
+    footer div.part1 .texte{
+        width: 380px;
+    }
+    footer div.part1 form{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    footer div.part1 form input.em{
+        max-width: 100%;
+        padding: 16px;
+        border-radius: 23px;
+    }
+    footer div.part1 form input.sub{
+        position: relative;
+        padding: 15px 25px;
+    }
+    footer div.part2{
+        padding: 180px 50px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 595px){
+    /*--------------------------- Header------------------------ */
+    #js:checked + #ul-nav{
+        width: 45%;
+    }
+    /* ---------------------------Section 1------------------------- */
+    section.section_1 div.bloc div.gauche h1{
+        padding: 10px;
+    }
+    section.section_1 div.bloc div.gauche p{
+        font-size: 13px;
+    }
+    section.section_1 div.bloc div.gauche button{
+        padding: 11px 20px 11px 24px;
+        font-size: 15px;
+    }
+    section.section_1 div.bloc div.gauche a {
+        font-size: 14px;
+    }
+    section.section_1 div.bloc div.gauche .explore{
+        gap: 30px;
+    }
+    
+    section.section_1 div.bloc div.droite div.casque{
+        display: flex;
+        justify-content: center;
+    }
+    section.section_1 div.bloc div.droite img{
+        width: 60%;
+    }
+    /* ---------------------------Section 2------------------------- */
+    section.section_2 div.montre{
+        display: none;
+    }
+    /*--------------------------- Section 3------------------------ */
+    div.bloc_L{
+        height: 400px;
+        background-size: 340px auto;
+        background-position: 150px 40px;
+    }
+    div.bloc_L .txt{
+        background-color: rgba(0, 0, 0, 0.271);
+        padding: 0px 50px 0px 40px;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    div.bloc_L .txt button{
+        padding: 11px 20px 11px 24px;
+        font-size: 15px;
+    }
+
+    div.bloc_R{
+        height: 400px;
+        background-size: 400px auto;
+        background-position: 120px 10px;
+    }
+    div.bloc_R .txt{
+        background-color: rgba(0, 0, 0, 0.271);
+        padding: 0px 50px 0px 40px;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    div.bloc_R .txt button{
+        padding: 11px 20px 11px 24px;
+        font-size: 15px;
+    }
+
+    /* ---------------------------Section 4------------------------- */
+    div.P1 .P1_Block1{
+        width: 300px;
+    }
+    div.P1 .P1_Block1 .info{
+        gap: 12px;
+        padding: 0px 29px 0px 0px;
+    }
+    div.P1 .P1_Block1 .info h1{
+        font-size: 14px;
+    }
+    /* ------------------Bouton Acheter tous les produits-------------- */
+    div.achetez{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    /* ---------------------------Section 5------------------------- */
+    div.container{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        border-radius: 30px;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+    div.container div.s5_gauche{
+        min-width: 100%;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    div.container div.s5_gauche h1{
+        font-size: 35px;
+    }
+
+    div.container div.s5_gauche p{
+        font-size: 14px;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+    div.container div.s5_gauche button{
+        position: relative;
+        width: 200px;
+        font-size: 12px;
+        bottom: 3%;
+        padding: 8px 13px 8px 9px;
+        gap: 0px;
+    }
+    div.container div.s5_gauche button img{
+        width: 20px;
+    }
+    div.container div.s5_droite{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*-- ----------------------Footer------------------------*/
+    footer{
+        padding: 20px 0px;
+    }
+    footer div.part1{
+        max-width: 90%;
+        border-radius: 25px;
+        padding: 25px 15px;
+    }
+    footer div.part1 .texte{
+        max-width: 80%;
+    }
+    footer div.part1 .texte h1{
+        font-size: 25px;
+    }
+    footer div.part1 .texte p{
+        font-size: 12px;
+    }
+
+    footer div.part1 form input.em{
+        font-size: 14px;
+        padding: 17px 30px;
+    }
+    div.part1 form input.sub{
+        font-size: 12px;
+    }
+
+    footer div.part2{
+        margin-top: 130px;
+        padding: 170px 50px 20px 50px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 451px){
+    /* -----------------section 5------------------- */
+    div.container div.s5_gauche h2{
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    /*-- ----------------------Footer------------------------*/
+    /* part2 */
+    footer div.part2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 90px;
+        background-color: rgb(238, 247, 250);
+        padding: 240px 4% 5% 4%;
+        border-radius: 38px;
+    }
+    div.part2 div.p2_bloc1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        margin-right: 0px;
+    }
+    div.part2 div.p2_bloc1 .logo_footer{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    div.part2 div.p2_bloc1 p{
+        padding: 1px 0px;
+        font-size: 14px;
+    }
+    div.bloc_reseaux{
+        width: 100%;
+        gap: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.part2 div.p2_bloc1 .reseaux{
+        width: 24px;
+    }
+    /* bloc2 */
+    div.part2 div.p2_bloc2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    div.p2_bloc2 h1{
+        font-size: 17px;
+    }
+    div.p2_bloc2 .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    div.p2_bloc2 .services a{
+        padding: 5px 0px;
+    }
+    /* fin */
+    div.fin{
+        padding: 10px 20px 50px 20px;
+    }
+}
